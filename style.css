@@ -1,0 +1,40 @@
+.container{
+    /* border: 2px solid #000000; */
+    padding: 30px;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(4 , 1fr);
+    
+}
+.box{
+    /* border: 1px solid #000000; */
+    padding: 70px;
+    
+
+}
+.green{
+    background-color: #61be5b ;
+}
+.red{
+    background-color: #f33937;
+}
+.yellow{
+    background-color: #feb342;
+}
+#box-1{
+    grid-row: 1 / 4;
+
+}
+#box-2{
+    grid-column: 2 / 4;
+
+}
+#box-6{
+    grid-column: 4 / 5;
+    grid-row: 2 / 5;
+}
+h1{
+    text-align: center;
+    color: black;
+    font-size: 30px;
+}
